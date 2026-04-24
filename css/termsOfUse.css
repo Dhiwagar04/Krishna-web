@@ -1,0 +1,16 @@
+@import url(common-style.css);
+
+.termsOfUseSec .common-heading{
+    margin-top: 30px;
+        margin-bottom: 34px;
+}
+.termsOfUseSec .commonPara:last-child{
+    margin-bottom: 50px;
+}
+.bseNseDisclaimerSec .common-heading{
+        margin-bottom: 24px;
+        text-align: left;
+}
+.bseNseDisclaimerSec .commonPara:last-child{
+    margin-bottom: 100px;
+}

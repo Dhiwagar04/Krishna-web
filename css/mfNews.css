@@ -1,0 +1,77 @@
+@import url(common-style.css);
+
+.mfMFNewsSec .common-heading{
+    text-align: left;
+    margin-bottom: 0;
+}
+.mfMFNewsSec .hdDropCnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.mfMFNewsSec .common-table table thead tr th, .common-table table tbody tr td{
+    text-align: left;
+        white-space: nowrap;
+}
+.mfMFNewsSec .paginationContainer{
+    margin-bottom: 100px;
+}
+.paginationContainer ul {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: right;
+    list-style: none;
+}
+.pageIndex.unactive {
+    color: #A9A9A9;
+}
+.paginationContainer ul a {
+    text-decoration: none;
+    font-weight: 600;
+}
+.pageIndexValue.active {
+    background-color: var(--heading-color);
+    color: var(--primary-white);
+}
+.pageIndexValue {
+    border: 1px solid rgba(118, 116, 116, 0.18);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 3px 11px;
+    color: var(--table-font);
+}
+.pageIndex{
+    color: var(--table-font);
+}
+.mfMFNewsSec .common-table.table-responsive{
+    margin-bottom: 40px;
+}
+.mfMFNewsSec .common-table table tbody tr td:first-child{
+        white-space: nowrap;
+}
+
+/* Media Query */
+@media (max-width: 380px){
+    .mfMFNewsSec .hdDropCnt{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399.9px){
+
+}
+@media screen and (min-width: 992px) and (max-width: 1199.9px){
+
+}
+@media screen and (min-width: 768px) and (max-width: 991.9px){
+
+}
+@media screen and (min-width: 576px) and (max-width: 767.9px){
+
+}
+@media screen and (max-width: 575.9px){
+
+}

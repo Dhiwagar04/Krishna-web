@@ -1,0 +1,24 @@
+@import url(common-style.css);
+
+.privacyPolicySec .common-heading{
+    margin-top: 30px;
+        margin-bottom: 14px;
+}
+.subHD{
+    font-size: 14px;
+    max-width: 638px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 24px;
+    color: #555555;
+    margin-bottom: 34px;
+}
+.commonPara{
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    margin-bottom: 16px;
+}
+.privacyPolicySec .commonPara:last-child{
+    margin-bottom: 100px;
+}

@@ -1,0 +1,148 @@
+@import url(common-style.css);
+
+.commonPara {
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    margin-bottom: 16px;
+}
+.GreatInnerPgSc{
+    padding: 30px 0 50px 0;
+}
+.investInEquityCntSc .common-heading{
+    text-align: left;
+    margin-bottom: 18px;
+}
+.overAllInnerServiceCnt .pillsCnt{
+    margin-bottom: 24px;
+}
+.sectionPadding{
+    padding: 50px 0;
+}
+.investInEquityCnt{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    margin-bottom: 50px;
+}
+.investInEquityCnt .fColumn{
+    width: 64%;
+}
+.equityMarketCntSc{
+    background-color: var(--br-hover);
+}
+.equityMarketCntSc .common-heading{
+    margin-bottom: 18px;
+}
+.equityMarketCnt .commonPara{
+    margin: 0 auto;
+    width: 76%;
+    text-align: center;
+}
+.equityMarketEvolutionCntSc .common-heading{
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.commonSubCirListCnt .commonCirListCnt{
+    margin-left: 40px;
+    margin-top: 16px;
+}
+.commonSubCirListCnt li::before {
+  content: ' '; 
+  margin-right: 10px;
+  background-image: url(../images/diamondDisc.svg);
+  padding-left: 30px;
+}
+.commonCirListCnt li::before {
+  content: ' '; 
+  margin-right: 10px;
+  background-image: url(../images/discCircle.svg);
+  padding-left: 20px;
+}
+.smartInvestInEquityCntSec .common-heading {
+    text-align: left;
+    margin-bottom: 24px;
+}
+.GreatInnerPgSc .nav-pills .nav-link.active{
+    padding: 8px 12px;
+    background: var(--secondary-btn-blue);
+    border-radius: 28px;
+    color: var(--heading-color) !important;
+}
+.GreatInnerPgSc .nav-pills .nav-link{
+    color: black;
+    padding: 8px 12px;
+    white-space: nowrap;
+}
+.spanHighLight{
+    font-weight: 900;
+}
+@media screen and (min-width: 992px) and (max-width: 1199.9px){
+    .equityMarketCnt .commonPara{
+            width: 90%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991.9px){
+    .investInEquityCnt{
+        flex-direction: column;
+    }
+    .investInEquityCnt .fColumn{
+    width: 100%;
+}
+.equityMarketCnt .commonPara{
+            width: 90%;
+    }
+    .investInEquityCnt .sColumn div{
+        width: 70%;
+    margin: 0 auto;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767.9px){
+    .investInEquityCnt{
+        flex-direction: column;
+    }
+    .investInEquityCnt .fColumn{
+    width: 100%;
+}
+.equityMarketCnt .commonPara{
+            width: 90%;
+    }
+    .investInEquityCnt .sColumn div{
+        width: 70%;
+    margin: 0 auto;
+    }
+    .sectionPadding {
+    padding: 30px 0;
+}
+}
+@media screen and (max-width: 575.9px){
+    .investInEquityCnt{
+        flex-direction: column;
+    }
+    .investInEquityCnt .fColumn{
+    width: 100%;
+}
+.equityMarketCnt .commonPara{
+            width: 90%;
+    }
+    .investInEquityCnt .sColumn div{
+        width: 80%;
+    margin: 0 auto;
+    }
+    .sectionPadding {
+    padding: 30px 0;
+}
+.investInEquityCnt{
+        gap: 24px;
+    }
+}
+@media screen and (max-width: 410.9px){
+    .overAllInnerServiceCnt .pillsCnt{
+        flex-wrap: nowrap;
+    }
+    .overAllInnerServiceCnt .pillsCnt{
+            flex-wrap: nowrap;
+            overflow-y: scroll;
+    }
+}
